@@ -1,31 +1,36 @@
-{{ partial "header.html" . }}
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
-
-{{if .Site.Home.Content }} 
-{{.Site.Home.Content}}	
-{{else}}           
-	{{if eq .Site.Language.Lang "fr"}}
-		<h1>Personaliser la page d'accueil</h1>
-		<p>
-		  Le site fonctionne. Ne pas oublier de personaliser cette page avec votre propre contenu. 3 manières de faire :
-		</p>
-		<ul>
-			<li><b>1. </b> Créer un fichier _index.md dans le dossier <b>content</b> et le remplir de Markdown</li>
-			<li><b>2. </b> Créer un fichier index.html dans le dossier <b>static</b> et le remplir de code HTML</li>
-		  <li><b>3. </b> Configurer le serveur http pour rediriger automatiquement la homepage vers la page de votre choix dans le site</li>
-		</ul>
-	{{else}}
-		<h1>Customize your own home page</h1>
-		<p>
-		  The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :
-		</p>
-		<ul>
-			<li><b>1. </b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
-			<li><b>2. </b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
-		  <li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
-		</ul>
-	{{end}}
-{{ end }}  
-{{ partial "footer.html" . }}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    span.s3 {-webkit-text-stroke: 0px #000000}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{ partial "header.html" . }} </span><span class="s2">navigation</span><span class="s1"> {{if .Site.Home.Content }} {{.Site.Home.Content}} {{else}} {{if eq .Site.Language.Lang "fr"}}</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Personaliser la page d'accueil</b></span></h1>
+<p class="p3"><span class="s1">Le site fonctionne. Ne pas oublier de personaliser cette page avec votre propre contenu. 3 maniÃ¨res de faire :<span class="Apple-converted-space"> </span></span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s3"><b></b></span><span class="s1"><b>1. </b>CrÃ©er un fichier _index.md dans le dossier <b>content</b> et le remplir de Markdown</span></li>
+  <li class="li1"><span class="s3"><b></b></span><span class="s1"><b>2. </b>CrÃ©er un fichier index.html dans le dossier <b>static</b> et le remplir de code HTML</span></li>
+  <li class="li1"><span class="s3"><b></b></span><span class="s1"><b>3. </b>Configurer le serveur http pour rediriger automatiquement la homepage vers la page de votre choix dans le site</span></li>
+</ul>
+<p class="p1"><span class="s1">{{else}}</span></p>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Customize your own home page</b></span></h1>
+<p class="p3"><span class="s1">The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :<span class="Apple-converted-space"> </span></span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s3"><b></b></span><span class="s1"><b>1.</b>ntation page</span></li>
+</ul>
+<p class="p1"><span class="s1">{{end}} {{ end }} {{ partial "footer.html" . }}<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
