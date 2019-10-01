@@ -10,58 +10,13 @@
     
     
     <item>
-      <title>Google Code-in with OpenWISP</title>
-      <link>https://AveryFok.github.io/posts/gci/</link>
-      <pubDate>Sat, 13 Jan 2018 10:29:23 +0530</pubDate>
-      
-      <guid>https://AveryFok.github.io/posts/gci/</guid>
-      <description>My experiences with Google Code-in 2017 and OpenWISP.</description>
-    </item>
-    
-    <item>
-      <title>2019NationalDay</title>
+      <title>2019国庆节</title>
       <link>https://AveryFok.github.io/posts/2019nationalday/</link>
       <pubDate>Tue, 01 Oct 2019 17:15:40 +0800</pubDate>
       
       <guid>https://AveryFok.github.io/posts/2019nationalday/</guid>
       <description>早上 起床，右手臂是冰的厉害。。 左鼻塞住。一大碗面没犹豫，吃完，不错，还可以，清淡但有味道！
 老婆闺蜜家 老婆闺蜜今天出嫁，家里办的不错的，除了太热没地方做还行</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://AveryFok.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
-      
-      <guid>https://AveryFok.github.io/posts/hugoisforlovers/</guid>
-      <description>A quick read on how to get started with Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://AveryFok.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://AveryFok.github.io/posts/creating-a-new-theme/</guid>
-      <description>A tutorial on how to create a Hugo theme.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://AveryFok.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://AveryFok.github.io/posts/goisforlovers/</guid>
-      <description>An introduction to Hugo, a static site generator.</description>
-    </item>
-    
-    <item>
-      <title>Migrating from Jekyll</title>
-      <link>https://AveryFok.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://AveryFok.github.io/posts/migrate-from-jekyll/</guid>
-      <description>A tutorial on migrating from Jekyll to Hugo.</description>
     </item>
     
   </channel>
